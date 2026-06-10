@@ -160,7 +160,7 @@ nav.menu a:hover {
 /* ---------- hero ---------- */
 .hero {
   position: relative;
-  padding: 84px 0 76px;
+  padding: 60px 0 52px;
   overflow: hidden
 }
 
@@ -343,7 +343,7 @@ h1 {
 
 /* ---------- sections ---------- */
 section {
-  padding: 70px 0
+  padding: 44px 0
 }
 
 .eyebrow {
@@ -378,7 +378,7 @@ h2 {
   font-weight: 700;
   font-size: clamp(28px, 4.5vw, 38px);
   letter-spacing: -.015em;
-  margin-bottom: 28px;
+  margin-bottom: 22px;
 }
 
 .reveal {
@@ -837,8 +837,8 @@ h2 {
 
 /* footer */
 footer {
-  margin-top: 20px;
-  padding: 70px 0 60px;
+  margin-top: 16px;
+  padding: 52px 0 44px;
   text-align: center;
   background: var(--footer-bg);
   color: #FFFDF6;
@@ -899,7 +899,7 @@ footer .btn-sun {
   }
 
   .hero {
-    padding: 54px 0 50px
+    padding: 42px 0 38px
   }
 
   .hero-grid {
@@ -918,7 +918,7 @@ footer .btn-sun {
   }
 
   section {
-    padding: 52px 0
+    padding: 36px 0
   }
 
   .timeline {
