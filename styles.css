@@ -192,11 +192,12 @@
   /* experience: timeline + sticker cards */
   .timeline{position:relative;padding-left:34px}
   .timeline::before{
-    content:"";position:absolute;left:10px;top:8px;bottom:8px;width:3px;
+    content:"";position:absolute;left:12.5px;top:8px;bottom:8px;width:3px;
     background:repeating-linear-gradient(var(--ink) 0 8px, transparent 8px 16px);
     border-radius:3px;opacity:.35;
   }
   .ticket{position:relative;margin-bottom:26px}
+  .ticket:last-child{margin-bottom:0}
   .ticket::before{
     content:"";position:absolute;left:-31px;top:24px;width:16px;height:16px;
     border-radius:50%;background:var(--sun);border:3px solid var(--ink);
@@ -266,6 +267,7 @@
     display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
     box-shadow:4px 4px 0 rgba(35,48,59,.12);
   }
+  .plain-list li:last-child{margin-bottom:0}
   .plain-list .meta{
     font-family:'Space Mono',monospace;font-size:12px;font-weight:700;
     color:var(--ink);background:var(--sun-soft);border-radius:8px;
@@ -274,6 +276,7 @@
 
   /* skills */
   .skill-group{margin-bottom:26px}
+  .skill-group:last-child{margin-bottom:0}
   .skill-group .g{
     font-family:'Bricolage Grotesque',sans-serif;font-size:17px;font-weight:700;
     margin-bottom:12px;display:flex;align-items:center;gap:10px;
@@ -344,7 +347,18 @@
     .avatar{width:120px;height:120px;font-size:44px}
     section{padding:20px 0}
     .timeline{padding-left:28px}
-    .ticket::before{left:-25px}
+    .ticket::before{left:-25.5px}
+    .ticket-head{padding:14px 16px 8px;gap:10px}
+    .ticket-logo{width:42px;height:42px;font-size:17px;border-radius:10px}
+    .ticket-title h3{font-size:16.5px}
+    .ticket-title .org{font-size:13px}
+    .ticket-status{font-size:9px;padding:3px 7px}
+    .ticket-period{padding:0 16px 4px;font-size:11px}
+    .emp-type{font-size:9px;padding:2px 7px}
+    .ticket-body{padding:6px 16px 10px}
+    .ticket-body ul li{font-size:13.5px;padding:3px 0 3px 20px}
+    .ticket-tools{padding:0 16px 14px;gap:5px}
+    .ticket-tools span{font-size:10px;padding:2px 7px}
   }
   @media (prefers-reduced-motion:reduce){
     *,*::before,*::after{animation:none!important;transition:none!important}
