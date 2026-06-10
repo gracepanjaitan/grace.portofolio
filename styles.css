@@ -574,19 +574,6 @@ h2 {
   padding: 20px 22px 10px;
 }
 
-.ticket-id {
-  font-family: 'Space Mono', monospace;
-  font-size: 11px;
-  font-weight: 700;
-  color: var(--ink);
-  background: var(--sun-soft);
-  border: 2px solid var(--ink);
-  border-radius: 8px;
-  padding: 3px 9px;
-  margin-top: 3px;
-  white-space: nowrap;
-}
-
 .ticket-title {
   flex: 1;
   min-width: 200px
