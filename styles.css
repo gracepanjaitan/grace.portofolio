@@ -16,20 +16,20 @@
     --radius:16px;
   }
   [data-theme="dark"]{
-    --bg:#151B23;            /* dark navy netral */
-    --ink:#EAF0F6;           /* teks & border jadi putih kebiruan */
-    --soft:#94A3B4;
-    --card:#1E2733;
-    --tangerine:#FF8B47;
-    --tangerine-soft:#3A2A2B;
-    --teal:#2FB89E;
-    --teal-soft:#173430;
-    --sun:#FFD23F;
-    --sun-soft:#34301E;
-    --sky-soft:#1E2D3F;
-    --dot:rgba(234,240,246,.05);
-    --topbar:rgba(21,27,35,.9);
-    --footer-bg:#0E141C;
+    --bg:#22262E;            /* charcoal lembut, tidak pekat */
+    --ink:#D5DCE4;           /* teks abu terang, tidak menyilaukan */
+    --soft:#9AA5B1;
+    --card:#2B313B;
+    --tangerine:#F08B52;
+    --tangerine-soft:#3B302C;
+    --teal:#3BAE97;
+    --teal-soft:#2A3834;
+    --sun:#E9C254;
+    --sun-soft:#383426;
+    --sky-soft:#2A323E;
+    --dot:rgba(213,220,228,.04);
+    --topbar:rgba(34,38,46,.92);
+    --footer-bg:#1B1F26;
   }
   *{margin:0;padding:0;box-sizing:border-box}
   html{scroll-behavior:smooth}
@@ -364,3 +364,13 @@
     *,*::before,*::after{animation:none!important;transition:none!important}
     .reveal{opacity:1;transform:none}
   }
+
+  /* dark mode: bayangan lembut agar tidak menyilaukan */
+  [data-theme="dark"] .ticket-card,
+  [data-theme="dark"] .ticket:nth-child(2n) .ticket-card,
+  [data-theme="dark"] .ticket:nth-child(3n) .ticket-card{box-shadow:6px 6px 0 rgba(0,0,0,.35)}
+  [data-theme="dark"] .ticket-card:hover{box-shadow:9px 9px 0 rgba(0,0,0,.5)}
+  [data-theme="dark"] .proj{box-shadow:5px 5px 0 rgba(0,0,0,.35)}
+  [data-theme="dark"] .proj:hover{box-shadow:8px 8px 0 rgba(0,0,0,.5)}
+  [data-theme="dark"] .info-card,
+  [data-theme="dark"] .plain-list li{box-shadow:4px 4px 0 rgba(0,0,0,.3)}
