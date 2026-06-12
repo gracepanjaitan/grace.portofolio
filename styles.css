@@ -25,12 +25,12 @@
   --soft: #9AA5B1;
   --card: #2B313B;
   --tangerine: #F08B52;
-  --tangerine-soft: #3B302C;
+  --tangerine-soft: #54301A;
   --teal: #3BAE97;
-  --teal-soft: #2A3834;
+  --teal-soft: #124A3D;
   --sun: #E9C254;
-  --sun-soft: #383426;
-  --sky-soft: #2A323E;
+  --sun-soft: #4E4012;
+  --sky-soft: #1E3A57;
   --dot: rgba(213, 220, 228, .04);
   --topbar: rgba(34, 38, 46, .92);
   --footer-bg: #1B1F26;
@@ -126,7 +126,7 @@ nav.menu {
 nav.menu a {
   font-family: 'Space Mono', monospace;
   font-size: 13px;
-  font-weight:700;
+  font-weight: 700;
   color: var(--ink);
   text-decoration: none;
   padding: 7px 13px;
